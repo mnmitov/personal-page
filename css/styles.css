@@ -1,0 +1,46 @@
+body {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 15em;
+    object-fit: cover;
+    filter: blur(4px);
+}
+
+.text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 25%;
+    text-align: center;
+    width: 40%;
+    color: blanchedalmond;
+    text-shadow: 2px 2px black
+}
+
+.main-page {
+    text-align: justify;
+    margin: 4em 0 4em 0;
+}
+
+footer {
+    position: relative;
+    display: block;
+    padding: 0.5em 0.5em 0.5em 0;
+    width: 100%;
+    color: black;
+    border-top: black solid 1px;
+}
