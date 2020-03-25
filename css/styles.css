@@ -41,7 +41,7 @@ header {
 .main-page {
     text-align: justify;
     margin: 2em 0 2em 0;
-    padding: 1em 1.5em 1.5em 1.5em;
+    padding: 1.0em 1.5em 1.5em 1.5em;
     border-radius: 2em;
     box-shadow: 0 0 10px lightgray;
     border: lightgray 1px solid;
@@ -50,10 +50,10 @@ header {
 }
 
 .main-page:hover {
-    z-index: -1; /* hide shadow behind image */
+    z-index: -1;
+    /* hide shadow behind image */
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 footer {
     margin-top: 5em;
@@ -62,13 +62,11 @@ footer {
     min-width: calc(900px - 100%);
     color: black;
     border-radius: 2em 2em 0 0;
-    background-color:lightgray;
+    background-color: lightgray;
     text-align: center;
     transition: border 0.7s;
-    box-shadow: 0 0 20px lightgray;
+    box-shadow: 0 0 45px lightgray;
 }
-
-
 
 footer:hover {
     border: lightgray 1px solid;
@@ -91,6 +89,65 @@ footer:hover {
     box-shadow: 0px 0px 20px white;
 }
 
-/* h1 {
-    text-shadow: 10px 10px 10px 40px white;
-} */
+input[type=text], input[type=email] {
+    display: inline-block;
+    margin: 0.7em;
+    padding: 0.5em;
+    width: 45%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    box-shadow: 0 7px 7px -6px lightgray;
+    background-color: lightyellow;
+    border-radius: 1em;
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+}
+
+textarea {
+    display: block;
+    background-color: lightyellow;
+    border: solid 1px lightyellow;
+    overflow: auto;
+    resize: none;
+    outline: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 0 8px lightgray;
+}
+
+input[type=submit] {
+    width: 30%;
+    border: lightgray 1px solid;
+    border-radius: 1.5em;
+    box-shadow: 0 0 8px lightgray;
+    background: transparent;
+    padding: 1em;
+    margin: 1em;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.g-recaptcha {
+    width: 700px;
+    text-align: center;
+}
