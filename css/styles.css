@@ -39,12 +39,13 @@ header {
 }
 
 .main-page {
+    background-color: lightyellow;
     text-align: justify;
     margin: 2em 0 2em 0;
     padding: 1.0em 1.5em 1.5em 1.5em;
     border-radius: 2em;
     box-shadow: 0 0 10px lightgray;
-    border: lightgray 1px solid;
+    border: lightyellow 1px solid;
     transition: border 0.7s;
     transition: box-shadow 0.7s;
 }
@@ -57,19 +58,20 @@ header {
 
 footer {
     margin-top: 5em;
-    border: lightgray 1px solid;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    border: lightyellow 1px solid;
+    padding: 0.2em 0.2em 0.2em 0.2em;
     min-width: calc(900px - 100%);
     color: black;
     border-radius: 2em 2em 0 0;
-    background-color: lightgray;
     text-align: center;
     transition: border 0.7s;
+    background-color: lightyellow;
     box-shadow: 0 0 45px lightgray;
+    transition: box-shadow 0.7s;
 }
 
 footer:hover {
-    border: lightgray 1px solid;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .personal-photo {
@@ -105,10 +107,10 @@ input[type=text], input[type=email] {
     border-radius: 1em;
 }
 
-.form {
+/* .form {
     width: 100%;
     text-align: center;
-}
+} */
 
 form {
     text-align: center;
@@ -127,7 +129,7 @@ textarea {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     width: 100%;
-    height: 150px;
+    height: 120px;
     padding: 12px 20px;
     box-sizing: border-box;
     border-radius: 4px;
@@ -148,6 +150,46 @@ input[type=submit] {
 }
 
 .g-recaptcha {
-    width: 700px;
+    display: inline-block;
     text-align: center;
+}
+
+.collapsible {
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 1px;
+    width: fit-content;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.content {
+    display: none;
+}
+
+.content-active {
+    display: block;
+    transition: transform 1s linear;
+}
+
+.socials {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.socials>a>img {
+    display: inline-block;
+    margin: 1.2em;
+    transform: scale(1);
+    transition: transform 0.4s
+}
+
+.socials>a>img:hover {
+    transform: scale(1.5)
 }
