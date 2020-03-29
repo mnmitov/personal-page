@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="top" lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Gotu&display=swap" rel="stylesheet">
     <title>Miroslav's Personal Web page</title>
     <!-- Hotjar Tracking Code for https://mnmitov.github.io/personal-page/ -->
     <script>
@@ -32,99 +33,104 @@
 
 <body>
 
-    <header>
-        <img class="cover-photo"
-            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80">
-        <div class="text">
-            <h1>Miroslav Mitov Personal web-page</h1>
-        </div>
-        <div class="photo-box">
-            <img class="personal-photo"
-                src="https://avatars3.githubusercontent.com/u/47675969?s=460&u=4d089e4deebec31541e4438abc55d77399e079bd&v=4"
-                alt="Miroslav Mitov">
-        </div>
-    </header>
-
-    <main>
-        <div class="main-page">
-            <h2>General information</h2>
-            <p>I am freelancer apprentice web developer and entrepreneur from Sofia, Bulgaria.
-                Currently looking for new opportunities, so if you'd like to work together, feel free to contact me.
-                I enjoy building web-sites for business, personal blogs, eCommerce, etc.
-                If you are an employer looking to hire, you can get in touch with me in contact me section.
-                You can see my qualifications and fields of knowledge in the corresponding section.
-            </p>
+    <div class="site">
+        <div class="cover-photo">
+            <div class="welcome-text">
+                <h1>Personal web-page</h1>
+                <h2>of Miroslav Mitov</h2>
+                <div class="personal-photo"></div>
+            </div>
+            
         </div>
 
-        <div class="main-page">
-            <h2>Skills and fields of knowledge</h2>
-            <p>I have knowledge of JavaScript, HTML5, CSS3, Bootstrap, Wordpress, basic knowledge of MySQL and also have
-                knowledge of PHP MVC Frameworks with Symfony. I'm using Visual Studio Code. I have around a year
-                experience.</p>
-        </div>
-
-        <div class="main-page">
-            <h2>Training and qualifications</h2>
-            <p>I have successfully completed several courses @ Software University, where I have acquired the above
-                mentioned skills as follows:</p>
-            <ul>
-                <li>
-                    <a href="./assets/PHP MVC Frameworks - Symfony - July 2019 - Certificate.pdf#toolbar=0">PHP
-                        fundamentals & PHP
-                        MVC Frameworks</a>
-                </li>
-                <li>
-                    <a href="./assets/JS Applications - October 2019 - Certificate.pdf#toolbar=0">JS Advanced & JS
-                        Applications</a>
-                </li>
-                <li>
-                    HTML & Advanced CSS
-                </li>
-                <li>
-                    Wordpress
-                </li>
-            </ul>
-            <p>Despite all this, I am eager to learn new technologies like AngularJS, ReactJS, NodeJS, MongoDB and so
-                on.</p>
-        </div>
-
-        <div class="main-page">
-            <h2>My projects</h2>
-            <p>My projects are available at <a href="https://github.com/mnmitov" target="_blank">GitHub</a>. This page
-                is created by using simple HTML, CSS and a little bit JavaScript and is hosted on GitHub.</p>
-        </div>
-
-        <div id="contacts" class="main-page">
-            <h2>Contact me</h2>
-
-            <div class="socials">
-                <a href="#contacts" id="btn" class="collapsible"><img src="./assets/message.png" height="60px"></a>
-                <a href="https://www.linkedin.com/in/miroslav-mitov-805ba690/" target="_blank"><img
-                        src="./assets/linkedin.jpg" height="60px"></a>
-                <a href="https://www.facebook.com/miroslav.mitov" target="_blank"><img src="./assets/fb.png"
-                        height="60px"></a>
-                <a href="https://github.com/mnmitov" target="_blank"><img src="./assets/github.png" height="60px"></a>
-                <a href="https://www.upwork.com/freelancers/~0126d762abafecd31f" target="_blank"><img
-                        src="./assets/upwork.png" height="60px"></a>
+        <main>
+            <div class="main-page gradient">
+               <h2>General information  <a href="#top"><img src="./assets/up-arrow.png" height="18px"></a></h2>
+                <p>I am freelancer apprentice web developer and entrepreneur from Sofia, Bulgaria.
+                    Currently looking for new opportunities, so if you'd like to work together, feel free to contact me.
+                    I enjoy building web-sites for business, personal blogs, eCommerce, etc.
+                    If you are an employer looking to hire, you can get in touch with me in <a href="#contacts">contact
+                        me</a> section.
+                    You can see my qualifications and fields of knowledge in the corresponding section.
+                </p>
             </div>
 
-            <div id="content" class="content">
-                <form action="https://getform.io/f/887d3b3d-b8bd-47c0-a778-ebf2bbef043b" method="POST">
-                    <input type="text" name="name" required placeholder="Your name here!">
-                    <input type="email" name="email" required placeholder="Your email here!">
-                    <textarea name="message" required
-                        placeholder="Leave your message here. I'll keep in touch with you very soon."></textarea>
-                    <div class="g-recaptcha" data-sitekey="6LeL8-MUAAAAABODUUGMBtQAFdPy73hqOpqOp8vt"></div>
-                    <br />
-                    <input id="submit" type="submit" value="Send message!">
-                </form>
+            <div class="main-page gradient">
+                <h2>Skills and fields of knowledge  <a href="#top"><img src="./assets/up-arrow.png" height="18px"></a></h2>
+                <p>I have knowledge of JavaScript, HTML5, CSS3, Bootstrap, Wordpress, basic knowledge of MySQL and also
+                    have
+                    knowledge of PHP MVC Frameworks with Symfony. I'm using Visual Studio Code. I have around a year
+                    experience.</p>
             </div>
-        </div>
-    </main>
 
-    <footer>
-        <h4>Design and development by Miroslav Mitov</h4>
-    </footer>
+            <div class="main-page gradient">
+                <h2>Training and qualifications  <a href="#top"><img src="./assets/up-arrow.png" height="18px"></a></h2>
+                <p>I have successfully completed several courses @ Software University, where I have acquired the above
+                    mentioned skills as follows:</p>
+                <ul>
+                    <li>
+                        <a href="./assets/PHP MVC Frameworks - Symfony - July 2019 - Certificate.pdf#toolbar=0">PHP
+                            fundamentals & PHP
+                            MVC Frameworks</a>
+                    </li>
+                    <li>
+                        <a href="./assets/JS Applications - October 2019 - Certificate.pdf#toolbar=0">JS Advanced & JS
+                            Applications</a>
+                    </li>
+                    <li>
+                        HTML & Advanced CSS
+                    </li>
+                    <li>
+                        Wordpress
+                    </li>
+                </ul>
+                <p>Despite all this, I am eager to learn new technologies like AngularJS, ReactJS, NodeJS, MongoDB and
+                    so
+                    on.</p>
+            </div>
+
+            <div class="main-page gradient">
+                <h2>My projects  <a href="#top"><img src="./assets/up-arrow.png" height="18px"></a></h2>
+                <p>My projects are available at <a href="https://github.com/mnmitov" target="_blank">GitHub</a>. This
+                    page
+                    is created by using simple HTML, CSS and a little bit JavaScript and is hosted on GitHub.</p>
+            </div>
+
+            <div id="contacts" class="main-page gradient">
+                <h2>Contact me  <a href="#top"><img src="./assets/up-arrow.png" height="18px"></a></h2>
+
+                <div class="socials">
+                    <p>Keep in touch with me any way you want:</p>
+                    <a href="#contacts" id="btn" class="collapsible"><img src="./assets/message.png" height="60px"></a>
+                    <a href="https://www.linkedin.com/in/miroslav-mitov-805ba690/" target="_blank"><img
+                            src="./assets/linkedin.jpg" height="60px"></a>
+                    <a href="https://www.facebook.com/miroslav.mitov" target="_blank"><img src="./assets/fb.png"
+                            height="60px"></a>
+                    <a href="https://github.com/mnmitov" target="_blank"><img src="./assets/github.png"
+                            height="60px"></a>
+                    <a href="https://www.upwork.com/freelancers/~0126d762abafecd31f" target="_blank"><img
+                            src="./assets/upwork.png" height="60px"></a>
+                </div>
+
+                <div id="content" class="content">
+                    <form action="https://getform.io/f/887d3b3d-b8bd-47c0-a778-ebf2bbef043b" method="POST">
+                        <input type="text" name="name" required placeholder="Your name here!">
+                        <input type="email" name="email" required placeholder="Your email here!">
+                        <textarea name="message" required
+                            placeholder="Leave your message here. I'll keep in touch with you very soon."></textarea>
+                        <div class="g-recaptcha" data-sitekey="6LeL8-MUAAAAABODUUGMBtQAFdPy73hqOpqOp8vt"></div>
+                        <br />
+                        <input id="submit" type="submit" value="Send message!">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <h4>Design and development by Miroslav Mitov</h4>
+        </footer>
+    </div>
+
 
 </body>
 
