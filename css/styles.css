@@ -93,8 +93,8 @@ body, input, textarea {
     background-image: url('../assets/cover-img.jfif');
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 25em;
+    width: calc(100%-960px);
+    height: 350px;
     border-radius: 0em 0em 2em 2em;
     filter: blur(0.3px);
     box-shadow: 0 0 10px lightgray;
@@ -114,8 +114,8 @@ body, input, textarea {
     color: white;
     border: 2px solid #f1f1f1;
     position: absolute;
-    top: 12.5em;
-    left: 32.5em;
+    top: 50%;
+    left: 50%;
     text-shadow: 0 0 5px white;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
