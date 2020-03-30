@@ -108,11 +108,11 @@ body, input, textarea {
     width: 100%;
     height: 350px;
     border-radius: 0em 0em 2em 2em;
-    filter: blur(0.3px);
+    /* filter: blur(0.3px);
     -webkit-filter: blur(0.3px);
     -o-filter: blur(0.3px);
     -ms-filter: blur(0.3px);
-    -moz-filter: blur(0.3px);
+    -moz-filter: blur(0.3px); */
     box-shadow: 0 0 10px lightgray;
     transition: box-shadow 0.7s;
     -webkit-transition: box-shadow 0.7s;
