@@ -139,7 +139,7 @@ body, input, textarea {
     -o-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     z-index: 2;
-    width: 45%;
+    width: 40%;
     padding: 1em;
     text-align: center;
     box-shadow: 0 0 5px white;
@@ -342,6 +342,7 @@ h1, h2, p {
 
 li {
     margin: 0 4em;
+    text-align: left;
 }
 
 p {
