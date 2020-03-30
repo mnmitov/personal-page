@@ -61,7 +61,10 @@ body, html {
         height: 5em;
     }
     div.cover-photo {
-        height: 18em;
+        height: 300px;
+    }
+    div.welcome-text{
+        top: 150px;
     }
     .g-recaptcha {
         transform: scale(0.77);
@@ -114,7 +117,7 @@ body, input, textarea {
     color: white;
     border: 2px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 175px;
     left: 50%;
     text-shadow: 0 0 5px white;
     transform: translate(-50%, -50%);
