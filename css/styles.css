@@ -44,6 +44,9 @@ body, html {
         width: 8em;
         height: 8em;
     }
+    .main-page>h1 {
+        font-size: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -83,8 +86,14 @@ body, html {
         margin: 1em;
         outline: none;
     }
+    .main-page>h1 {
+        font-size: 70%;
+    }
     .main-page>h2 {
         margin: 0.3em 0;
+    }
+    .socials>a>img {
+        height: 40px;
     }
 }
 
@@ -100,6 +109,10 @@ body, input, textarea {
     height: 350px;
     border-radius: 0em 0em 2em 2em;
     filter: blur(0.3px);
+    -webkit-filter: blur(0.3px);
+    -o-filter: blur(0.3px);
+    -ms-filter: blur(0.3px);
+    -moz-filter: blur(0.3px);
     box-shadow: 0 0 10px lightgray;
     transition: box-shadow 0.7s;
     -webkit-transition: box-shadow 0.7s;
@@ -298,11 +311,23 @@ input[type=submit] {
     max-width: 100%;
     margin: 2em;
     transform: scale(1);
-    transition: transform 0.4s
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
+    -ms-transition: transform 0.4s;
 }
 
 .socials>a>img:hover {
-    transform: scale(1.5)
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
 }
 
 .socials>a>img:active {
