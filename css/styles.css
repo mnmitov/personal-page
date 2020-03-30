@@ -1,7 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body, html {
     padding: 0;
     margin: 0;
     font: 14px/1.5 'Gotu', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 @media screen and (min-width: 1080px) {
@@ -25,7 +35,7 @@ body, html {
         margin: 0 auto;
         padding: 0 2em;
         max-width: 960px;
-        min-width: 200px;
+        min-width: 100px;
     }
     h1 {
         font-size: 2em;
@@ -41,7 +51,7 @@ body, html {
         margin: 0 auto;
         padding: 0 2em;
         max-width: 768px;
-        min-width: 200px;
+        min-width: 100px;
     }
     h1, h2 {
         font-size: 1em;
@@ -156,7 +166,7 @@ body, input, textarea {
 .main-page {
     text-align: justify;
     margin: 2em 0;
-    padding: 1.0em 1.5em 1.5em 1.5em;
+    padding: 1em 3em;
     border-radius: 2em;
     box-shadow: 0 0 10px lightgray;
     transition: box-shadow 0.7s;
@@ -167,7 +177,7 @@ body, input, textarea {
 }
 
 .gradient {
-    background: linear-gradient(180deg, lightgrey 5em, white 0%);
+    background: linear-gradient(180deg, lightgrey 4.5em, white 0%);
 }
 
 .main-page:hover {
@@ -178,6 +188,7 @@ body, input, textarea {
 footer {
     border: lightyellow 1px solid;
     color: black;
+    padding: 1.5em;
     border-radius: 2em 2em 0 0;
     text-align: center;
     transition: border 0.7s;
@@ -252,9 +263,6 @@ input[type=submit] {
 .collapsible {
     background-color: transparent;
     text-decoration: underline;
-    -moz-text-decoration-line: underline;
-    -ms-text-decoration-line: underline;
-    -o-text-decoration-line: underline;
     border: none;
     color: black;
     cursor: pointer;
@@ -295,10 +303,14 @@ input[type=submit] {
     opacity: 0.4;
 }
 
-h1, h2, p, li {
+h1, h2, p {
     font-weight: 100;
     margin: 0;
     padding: 0;
+}
+
+li {
+    margin: 0 4em;
 }
 
 p {
