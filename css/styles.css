@@ -80,6 +80,9 @@ body, html {
         margin: 1em;
         outline: none;
     }
+    .main-page>h2 {
+        margin: 0.3em 0;
+    }
 }
 
 body, input, textarea {
@@ -111,8 +114,8 @@ body, input, textarea {
     color: white;
     border: 2px solid #f1f1f1;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 12.5em;
+    left: 32.5em;
     text-shadow: 0 0 5px white;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -336,6 +339,7 @@ h1, h2 {
     margin: 0.2em 0;
     padding: 0;
     text-shadow: 0 0 20px white;
+    transform: rotate(356deg);
 }
 
 .main-page>h2 {
@@ -345,7 +349,7 @@ h1, h2 {
 
 .main-page>p {
     margin: 2em 0;
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .main-page>h2>a {
