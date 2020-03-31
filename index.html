@@ -29,6 +29,7 @@
     </script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="module" src="./js/collapsible.js"></script>
+    <script type="module" src="./js/ajaxForm.js"></script>
 </head>
 
 <body>
@@ -113,13 +114,15 @@
                 </div>
 
                 <div id="content" class="content">
-                    <form action="https://getform.io/f/887d3b3d-b8bd-47c0-a778-ebf2bbef043b" method="POST">
+                    <form accept-charset="UTF-8" action="https://getform.io/f/887d3b3d-b8bd-47c0-a778-ebf2bbef043b"
+                        method="POST" enctype="multipart/form-data" target="_blank" id="ajaxForm">
                         <input type="text" name="name" required placeholder="Your name here!">
                         <input type="email" name="email" required placeholder="Your email here!">
                         <textarea name="message" required
                             placeholder="Leave your message here. I'll keep in touch with you very soon."></textarea>
                         <div class="g-recaptcha" data-sitekey="6LeL8-MUAAAAABODUUGMBtQAFdPy73hqOpqOp8vt"></div>
                         <br />
+                        <div class="success">We received your submission, thank you!</div>
                         <input id="submit" type="submit" value="Send message!">
                     </form>
                 </div>
