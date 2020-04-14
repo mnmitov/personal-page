@@ -8,6 +8,7 @@ body, html {
     margin: 0;
     font: 14px/1.5 'Gotu', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
