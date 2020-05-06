@@ -296,6 +296,13 @@ input[type=submit] {
     display: block;
 }
 
+.technologies {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
+}
+
 .socials {
     display: inline-block;
     width: 100%;
@@ -338,14 +345,20 @@ h1, h2, p {
     padding: 0;
 }
 
+ul {
+    margin: 1em 0;
+}
+
 li {
     margin: 0 4em;
     text-align: left;
+    font-size: 16px;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5em;
+    margin: 0.5em 0;
 }
 
 h1, h2 {
