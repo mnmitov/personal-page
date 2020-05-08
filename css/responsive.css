@@ -82,7 +82,7 @@
     }
 }
 
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 600px) {
     .navigation {
         word-wrap: break-word;
     }
@@ -91,6 +91,6 @@
     }
     .experience {
         width: 90%;
-        font-size: 8px;
+        font-size: 10px;
     }
 }

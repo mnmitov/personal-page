@@ -30,6 +30,7 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="module" src="./js/collapsible.js"></script>
     <script type="module" src="./js/ajaxForm.js"></script>
+    <script type="module" src="./js/typewriting-header.js"></script>
 </head>
 
 <body>
@@ -57,7 +58,7 @@
             </div>
             <div class="welcome-text">
                 <h1>Personal web-page</h1>
-                <h2>of Miroslav Mitov</h2>
+                <h2 id='typewriting-header'></h2>
                 <div class="personal-photo"></div>
             </div>
 
@@ -66,8 +67,10 @@
         <main>
             <div id="general" class="main-page">
                 <div class="main-page-up">
-                    <h2>General information<a href="#top"><img class="main-page-up-img" src="./assets/up-arrow.png"
-                                height="18px"></a></h2>
+
+                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">General information<a
+                            href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png" height="18px"></a>
+                    </h2>
                 </div>
                 <div class="main-page-bottom">
                     <p>I am freelancer apprentice web developer and entrepreneur from Sofia, Bulgaria.
@@ -84,7 +87,7 @@
 
             <div id="skills" class="main-page">
                 <div class="main-page-up">
-                    <h2>Skills and fields of knowledge<a href="#top"><img class="main-page-up-img"
+                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">Skills and fields of knowledge<a href="#top"><img class="main-page-up-img-up-arrow"
                                 src="./assets/up-arrow.png" height="18px"></a>
                     </h2>
                 </div>
@@ -127,7 +130,7 @@
 
             <div id="training" class="main-page">
                 <div class="main-page-up">
-                    <h2>Training and qualifications<a href="#top"><img class="main-page-up-img"
+                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">Training and qualifications<a href="#top"><img class="main-page-up-img-up-arrow"
                                 src="./assets/up-arrow.png" height="18px"></a></h2>
                 </div>
                 <div class="main-page-bottom">
@@ -164,13 +167,13 @@
 
             <div id="projects" class="main-page">
                 <div class="main-page-up">
-                    <h2>My projects<a href="#top"><img class="main-page-up-img" src="./assets/up-arrow.png"
+                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">My projects<a href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a></h2>
                 </div>
                 <div class="main-page-bottom">
-                    <p>My projects are available at <strong>GitHub</strong>.
+                    <p>All my projects are available @ <strong>GitHub</strong>.
                         This
-                        page is created by using simple HTML, CSS and a little bit of JavaScript and is hosted on
+                        page I created by using HTML, custom CSS and vanilla JavaScript. Web page is deployed in
                         <strong>GitHub</strong>.
                     </p>
                     <img class="five-star-logo" src="/assets/five-star.png" height="50px">
@@ -179,12 +182,12 @@
 
             <div id="contacts" class="main-page">
                 <div class="main-page-up">
-                    <h2>Contact me<a href="#top"><img class="main-page-up-img" src="./assets/up-arrow.png"
+                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">Speak with me!<a href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a></h2>
                 </div>
                 <div class="main-page-bottom">
                     <div class="socials">
-                        <p>Keep in touch with me any way you want:</p>
+                        <p>Keep in touch with me any way you want. Find me using one of the options below:</p>
                         <a href="#contacts" id="btn" class="collapsible"><img src="./assets/message.png"
                                 height="60px"></a>
                         <a href="https://www.linkedin.com/in/miroslav-mitov-805ba690/" target="_blank"><img
@@ -217,7 +220,8 @@
         </main>
 
         <footer>
-            <h4>Design and development by Miroslav Mitov</h4>
+            <p>Created and developed by Miroslav Mitov</p>
+            <p>www.mmitov.org</p>
         </footer>
     </div>
 

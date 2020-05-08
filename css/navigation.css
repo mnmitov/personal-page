@@ -16,16 +16,20 @@
     display: inline-block;
     width: 15%;
     color: blanchedalmond;
-    padding: 0.2em;
-    border-radius: 0.3em;
+    border-width: 0 1px 1px 1px;
+    border-style: outset;
+    border-color:  rgba(0, 0, 0, 0.4);
+    border-radius: 0 0 0.3em 0.3em;
     margin: 0 0.2em;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 2;
     text-shadow: 0 0 0 white;
-    transition: text-shadow 0.3s;
+    transition: text-shadow 0.7s;
+    transition: border-color 0.7s;
 }
 
 .navigation>ul>li>a {
+    display: block;
     text-decoration: none;
     color: blanchedalmond;
     text-transform: uppercase;
@@ -33,6 +37,7 @@
 
 .navigation>ul>li:hover {
     text-decoration: none;
-    color: blanchedalmond;
+    color: white;
     text-shadow: 0 0 5px white;
+    border-bottom: white 3px outset;
 }
