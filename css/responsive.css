@@ -1,0 +1,96 @@
+@media screen and (min-width: 1080px) {
+    .site {
+        margin: 0 auto;
+        padding: 0 2em;
+        max-width: 1080px;
+        min-width: 200px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    div.personal-photo {
+        width: 8em;
+        height: 8em;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .site {
+        margin: 0 auto;
+        padding: 0 2em;
+        max-width: 960px;
+        min-width: 100px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    div.personal-photo {
+        width: 8em;
+        height: 8em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .site {
+        margin: 0 auto;
+        padding: 0 2em;
+        max-width: 768px;
+        min-width: 100px;
+    }
+    h1, h2 {
+        font-size: 1em;
+    }
+    div.personal-photo {
+        width: 5em;
+        height: 5em;
+    }
+    div.cover-photo {
+        height: 300px;
+    }
+    div.welcome-text {
+        top: 150px;
+    }
+    .g-recaptcha {
+        transform: scale(0.77);
+        -webkit-transform: scale(0.77);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+    input[type=submit] {
+        width: 7vw;
+        font-size: 2vw;
+        border: lightgray 1px solid;
+        border-radius: 1.5em;
+        box-shadow: 0 0 8px lightgray;
+        background: transparent;
+        padding: 1em;
+        margin: 1em;
+        outline: none;
+    }
+    .socials>a>img {
+        height: 40px;
+    }
+    .navigation {
+        word-wrap: break-word;
+    }
+    .navigation>ul>li>a {
+        font-size: 0.65em;
+    }
+    .experience {
+        width: 90%;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .navigation {
+        word-wrap: break-word;
+    }
+    .navigation>ul>li>a {
+        font-size: 0.4em;
+    }
+    .experience {
+        width: 90%;
+        font-size: 8px;
+    }
+}
