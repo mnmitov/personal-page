@@ -11,8 +11,6 @@ body, html {
     font: 15px/1.5 'Gotu', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;
 }
 
 *, *:before, *:after {
