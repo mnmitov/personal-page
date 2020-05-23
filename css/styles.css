@@ -11,6 +11,8 @@ body, html {
     font: 15px/1.5 'Gotu', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
 }
 
 *, *:before, *:after {
@@ -80,7 +82,7 @@ body, input, textarea {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     -moz-transform: scale(1);
-    transition: transform 0.4s;
+    transition: transform 0.4s ease;
     -ms-transition: transform 0.4s;
     -moz-transition: transform 0.4s;
     -o-transition: transform 0.4s;
