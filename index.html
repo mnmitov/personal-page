@@ -21,9 +21,6 @@
         gtag('config', 'UA-161697768-1');
     </script>
     
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script type="module" src="./js/collapsible.js"></script>
-    <script type="module" src="./js/ajaxForm.js"></script>
     <script type="module" src="./js/typewriting-header.js"></script>
 </head>
 
@@ -62,7 +59,7 @@
             <div id="general" class="main-page">
                 <div class="main-page-up">
 
-                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">General information<a
+                    <h2><img class="main-page-up-img-check" src="./assets/check.png" height="18px">General information<a
                             href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a>
                     </h2>
@@ -82,7 +79,7 @@
 
             <div id="skills" class="main-page">
                 <div class="main-page-up">
-                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">Skills and fields of
+                    <h2><img class="main-page-up-img-check" src="./assets/check.png" height="18px">Skills and fields of
                         knowledge<a href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a>
                     </h2>
@@ -92,7 +89,7 @@
                         Bootstrap, Opencart, MySQL. I use VS Code.
                     </p>
                     <div class="experience">
-                        <img src="/assets/pngwave.png" height="25px">
+                        <img src="./assets/pngwave.png" height="25px">
                         <p><strong>Experience: 2 years and going forward!</strong></p>
                     </div>
 
@@ -118,7 +115,7 @@
 
             <div id="training" class="main-page">
                 <div class="main-page-up">
-                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">Training and
+                    <h2><img class="main-page-up-img-check" src="./assets/check.png" height="18px">Training and
                         qualifications<a href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a></h2>
                 </div>
@@ -148,33 +145,32 @@
 
             <div id="projects" class="main-page">
                 <div class="main-page-up">
-                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">My projects<a
+                    <h2><img class="main-page-up-img-check" src="./assets/check.png" height="18px">My projects<a
                             href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a></h2>
                 </div>
                 <div class="main-page-bottom">
-                    <p>My current and biggest project which I'm working in the past 2 years is <a href="https://digit.bg">Digit.bg</a> - an e-commerce project for computers and gaming stuff.
+                    <p>My current and biggest project which I'm working in the past 2 years is <a href="https://digit.bg" target="_blank">Digit.bg</a> - an e-commerce project for computers and gaming stuff.
                     </p>
                     <p>All my projects are available @ <strong>GitHub</strong>.
                         I created this page just by using HTML, custom CSS and vanilla JavaScript. Web page is deployed in
                         <strong>GitHub</strong>.
                     </p>
                     
-                    <img class="five-star-logo" src="/assets/five-star.png" height="50px">
+                    <img class="five-star-logo" src="./assets/five-star.png" height="50px">
                 </div>
             </div>
 
             <div id="contacts" class="main-page">
                 <div class="main-page-up">
-                    <h2><img class="main-page-up-img-check" src="/assets/check.png" height="18px">Speak with me!<a
+                    <h2><img class="main-page-up-img-check" src="./assets/check.png" height="18px">Speak with me!<a
                             href="#top"><img class="main-page-up-img-up-arrow" src="./assets/up-arrow.png"
                                 height="18px"></a></h2>
                 </div>
                 <div class="main-page-bottom">
                     <div class="socials">
-                        <p>Keep in touch with me any way you want. Find me using one of the options below:</p>
-                        <a href="#contacts" id="btn" class="collapsible"><img src="./assets/message.png"
-                                height="60px"></a>
+                        <p>Keep in touch with me in a way you want:</p>
+
                         <a href="https://www.linkedin.com/in/miroslav-mitov-805ba690/" target="_blank"><img
                                 src="./assets/linkedin.jpg" height="60px"></a>
                         <a href="https://www.facebook.com/miroslav.mitov" target="_blank"><img src="./assets/fb.png"
@@ -184,20 +180,6 @@
                         <a href="https://www.upwork.com/freelancers/~0126d762abafecd31f?viewMode=1" target="_blank"><img
                                 src="./assets/upwork.png" height="60px"></a>
                     </div>
-
-                    <div id="content" class="content">
-                        <form accept-charset="UTF-8" action="https://getform.io/f/887d3b3d-b8bd-47c0-a778-ebf2bbef043b"
-                            method="POST" enctype="multipart/form-data" target="_blank" id="ajaxForm">
-                            <input type="text" name="name" required placeholder="Enter your name">
-                            <input type="email" name="email" required placeholder="Enter your email">
-                            <textarea name="message" required
-                                placeholder="Leave your message here. I'll keep in touch with you very soon."></textarea>
-                            <div class="g-recaptcha" data-sitekey="6LeL8-MUAAAAABODUUGMBtQAFdPy73hqOpqOp8vt"></div>
-                            <br />
-                            <div class="success">We received your submission, thank you!</div>
-                            <input id="submit" type="submit" value="Send message!">
-                        </form>
-                    </div>
                 </div>
 
 
@@ -206,7 +188,6 @@
 
         <footer>
             <p>Created and developed by Miroslav Mitov</p>
-            <p>https://mnmitov.github.io/personal-page/</p>
         </footer>
     </div>
 
